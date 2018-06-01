@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./App.css";
-import { observer } from "mobx-react";
 
 import Header from "./components/header";
 import Counter from "./components/counter";
@@ -119,4 +118,4 @@ class App extends Component {
   }
 }
 
-export default observer(withStyles(styles)(App));
+export default withStyles(styles)(App);
