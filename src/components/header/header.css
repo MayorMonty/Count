@@ -1,0 +1,12 @@
+.AppBar {
+  flex-grow: 1;
+}
+
+.AppBar-flex {
+  flex: 1;
+}
+
+.AppBar-menuButton {
+  margin-left: -12px;
+  margin-right: 20px;
+}
